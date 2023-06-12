@@ -31,17 +31,7 @@ public class SpawnManager : MonoBehaviour
 
     private int score;
     public bool isGameActive;
-    void Start()
-    {
-        
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     
     public void UpdateScore(int scoreToAdd)
     {

@@ -58,8 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
-    <Compile Include="Assets\Scripts\MoveDown.cs" />
     <Compile Include="Assets\Scripts\DifficultButton.cs" />
+    <Compile Include="Assets\Scripts\MoveDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

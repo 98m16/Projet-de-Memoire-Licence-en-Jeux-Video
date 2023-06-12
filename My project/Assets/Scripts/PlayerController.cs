@@ -14,16 +14,16 @@ public class PlayerController : MonoBehaviour
     public AudioClip gemSound;
     private AudioSource playerAudio;
 
-    //private GameManager gameManager;
+    
     private SpawnManager spawnManager;
 
-    private float zBound = 12f; // if your player can go off the screen, write an if statement checkeing and resetting the position.
+    private float zBound = 12f; 
 
-    private Rigidbody playerRb; //if using physics and initialize it in Start(); use either the translate method or AddForce to move your character
+    private Rigidbody playerRb; 
 
-    float verticalInput, horizontalInput; // if using arrow keys
+    float verticalInput, horizontalInput; 
 
-    //if basing movement off a key press, create the if-statement to test for the KeyCode.
+    
 
     // Start is called before the first frame update
     void Start()
@@ -48,8 +48,6 @@ public class PlayerController : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
 
-        //playerRb.AddForce(Vector3.forward * speed * verticalInput);
-        //playerRb.AddForce(Vector3.right * speed * horizontalInput);
 
         Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput);
         playerRb.velocity = movement * speed;
