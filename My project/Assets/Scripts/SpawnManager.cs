@@ -27,16 +27,29 @@ public class SpawnManager : MonoBehaviour
     public TextMeshProUGUI gameOverText;
 
     public Button restartButton;
+    public Button quitButton;
+    public Button cancelRestartButton;
 
 
     private int score;
     public bool isGameActive;
-    
-    
+
+    void Start()
+    {
+        quitButton.onClick.AddListener(QuitGame);
+        cancelRestartButton.onClick.AddListener(ReturnToMainMenu);
+    }
+
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
         scoreText.text = "Score: " + score;
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit game button clicked");
+        Application.Quit();
     }
 
     public void GameOver()
@@ -44,6 +57,12 @@ public class SpawnManager : MonoBehaviour
         gameOverText.gameObject.SetActive(true);
         isGameActive = false;
         restartButton.gameObject.SetActive(true);
+        cancelRestartButton.gameObject.SetActive(true);
+    }
+
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("My Game"); // Remplacez "MainMenu" par le nom de votre scène du menu principal
     }
 
     public void RestartGame()
