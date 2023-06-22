@@ -1,441 +1,568 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1686763875855122, "dur": 1139488, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763875855758, "dur": 13379, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763875869140, "dur": 47905, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763875917162, "dur": 324050, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763876241214, "dur": 744275, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763876985491, "dur": 9118, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763876995257, "dur": 17, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1686763876056612, "dur": 160887, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686763876057979, "dur": 65227, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686763876191344, "dur": 5855, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686763876197204, "dur": 20271, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686763876198277, "dur": 17622, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686763876226146, "dur": 1825, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1686763876225054, "dur": 2965, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763876995834, "dur": 276, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687472217061114, "dur": 3236155, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687472217061404, "dur": 9801, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687472217071207, "dur": 3208090, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687472220279299, "dur": 17969, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687472220297975, "dur": 20, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1686763876298632, "dur":2350, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876300993, "dur":49, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1686763876301063, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1686763876301081, "dur":229, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1686763876301349, "dur":1089, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876302439, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960528, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960558, "dur":33, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960591, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960595, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960607, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960610, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960618, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960620, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960639, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960652, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876960681, "dur":2073, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1686763876301893, "dur":594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876302490, "dur":7261, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876309771, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686763876309793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876310595, "dur":397, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686763876310998, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686763876311061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876311941, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1686763876314921, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876314984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876315106, "dur":3592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876318783, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876318851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876319459, "dur":10026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876329534, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876329599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876329612, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876331779, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876331836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876331845, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876334343, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876334401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876334418, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876337237, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876337294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876337304, "dur":21935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876359301, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876359355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876359367, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876361001, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876361065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876361080, "dur":4264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876365428, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876365509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876365523, "dur":9735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876375316, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876375393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876375406, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876377944, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876378004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876378015, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876380858, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876380915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876380927, "dur":2187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876383178, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876383255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876383272, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876385943, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876386001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876386014, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876388004, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876388323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876388724, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876393102, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876393203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876393213, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876396342, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876396402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876396414, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876399017, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876399082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876399091, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876401327, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876401397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876401407, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876404486, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876404545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876404558, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876407976, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876408029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876408040, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876413118, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876413180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876413191, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876415202, "dur":145913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876561122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876561137, "dur":51973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876613165, "dur":229648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876842820, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1686763876842893, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1686763876844954, "dur":115520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876301954, "dur":552, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876302506, "dur":7284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876309790, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1686763876309990, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310120, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310178, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310277, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310333, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310411, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310468, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310586, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310649, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310735, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310789, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876310979, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1686763876311042, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876311098, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1686763876311239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876312484, "dur":20586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1686763876333132, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876333255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876333267, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876335295, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876335346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876335357, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876337779, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876337850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876337861, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876342386, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876342452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876342460, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876345006, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876345075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876345087, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876347359, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876347417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876347432, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876349272, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876349378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876349387, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876352023, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876352082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876352093, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876353600, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876353662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876353797, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876357245, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876357315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876357332, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876360586, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876360664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876360677, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876362363, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876362420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876362432, "dur":8918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876371421, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876371492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876371504, "dur":23675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876395238, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876395298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876395314, "dur":2690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876398063, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876398127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876398143, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876401297, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876401362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876401378, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876408905, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876408967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876408979, "dur":107281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876516320, "dur":164640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876680967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876680980, "dur":4492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876685531, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876685590, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876685610, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876687533, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876687593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876687602, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876690987, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876691066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876691080, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876692726, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876692789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876692799, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876694531, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876694597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876694609, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876698160, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876698248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876698294, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876700119, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876700247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876700261, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876702389, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876702450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876702462, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876704376, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876704451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876704464, "dur":3871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1686763876708392, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1686763876708462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876708567, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1686763876710150, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1686763876710221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876710231, "dur":16203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":2, "ts":1686763876726532, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1686763876726756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876726769, "dur":6361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1686763876733185, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1686763876733356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876733367, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1686763876734762, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1686763876735894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876735908, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1686763876737627, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1686763876737690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876737704, "dur":4749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1686763876742509, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1686763876742564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876742575, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1686763876744408, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1686763876744470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876744481, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1686763876746030, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1686763876746086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1686763876746097, "dur":23006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1686763876769161, "dur":191341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876301939, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876302496, "dur":7262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876309771, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1686763876309873, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876309990, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310053, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310137, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310198, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310284, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310343, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310429, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310498, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310587, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310650, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310747, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310843, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876310934, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876311000, "dur":1911, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876312914, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876313135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876320181, "dur":25930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876346170, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876346236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876346252, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876348984, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876349055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876349066, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876351561, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876351626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876351638, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876353344, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876353407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876353421, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876354808, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876354867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876354884, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876360943, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876361145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876361155, "dur":14324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876375534, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876375596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876375607, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876378037, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876378097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876378106, "dur":2915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876381086, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876381157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876381166, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876383675, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876383738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876383753, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876386301, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876386366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876386376, "dur":6575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876393016, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876393108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876393121, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876395456, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876395518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876395531, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876398680, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876398737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876398748, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876402411, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876402513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876402527, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876404546, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876404601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876404614, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876407449, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876407580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876407593, "dur":4624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876412275, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876412330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876412342, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876414719, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876414808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876414820, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876416463, "dur":193126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876609597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876609611, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876613071, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876613129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876613142, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876614574, "dur":344283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876958863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1686763876958874, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1686763876960424, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":3, "ts":1686763876960426, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876301998, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876302514, "dur":7274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876309789, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1686763876309977, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310078, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310156, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310237, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310299, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310377, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310435, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310533, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310588, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310672, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310730, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876310776, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876311043, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876311091, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival.exe" }}
-,{ "pid":12345, "tid":4, "ts":1686763876311146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876311311, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival.exe" }}
-,{ "pid":12345, "tid":4, "ts":1686763876314901, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876314956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876315112, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876319103, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876319151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876319394, "dur":9874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876329338, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876329410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876329486, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876331439, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876331676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876331688, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876334486, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876334629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876334638, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876336823, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876336876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876336887, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876339418, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876339490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876339503, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876342332, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876342387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876342398, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876344602, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876344685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876344697, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876346683, "dur":311501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876658226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876658242, "dur":20126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876678427, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876678528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876678557, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876680205, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876680267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876680279, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876683714, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876683774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876683787, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876685327, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876685388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876685405, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876687270, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876687326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876687339, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876690686, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876690744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876690760, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876692342, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876692428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876692439, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876693852, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876693906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876693918, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876695961, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876696025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876696057, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876698988, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876699060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876699075, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876701146, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876701211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876701222, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876702933, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876702996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876703009, "dur":5041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876708107, "dur":1772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876709886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876709900, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1686763876711211, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1686763876711269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876711280, "dur":50971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1686763876762427, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1686763876762495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876762506, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1686763876764558, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1686763876764625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876764639, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1686763876766845, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1686763876767038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1686763876767049, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1686763876768377, "dur":192148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1686763876964816, "dur":2865, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1686763876996207, "dur": 764, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1686763876995242, "dur": 1758, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1687472217118211, "dur":1178, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472217119402, "dur":132, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687472217119565, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687472217119584, "dur":231, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687472217119848, "dur":969, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472217120817, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251033, "dur":111, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251144, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251161, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251164, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251175, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251178, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251187, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251190, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251199, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251210, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220251241, "dur":2300, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687472217120465, "dur":391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217120858, "dur":4973, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217125845, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687472217125848, "dur":839, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217126690, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687472217126693, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217126755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217129043, "dur":6112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687472217135163, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687472217135572, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217135648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217135924, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1687472217137966, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687472217138128, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217138196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217138209, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687472217140367, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1687472217140511, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217140579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217142059, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1687472217143815, "dur":38093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687472217181909, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217182013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217182027, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687472217183343, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1687472217183520, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217183581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217183593, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1687472217186469, "dur":6865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217193335, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217193431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217193715, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217196246, "dur":35476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687472217231723, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217231833, "dur":25390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217257223, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217257319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217257723, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217260217, "dur":37584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217297801, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217297940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217298043, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217299688, "dur":65539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217365228, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217365332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217365345, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217366859, "dur":30734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217397593, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217397685, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217397705, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217398967, "dur":37446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217436414, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217436506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217436520, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217438130, "dur":29152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217467282, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217467371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217467384, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217468832, "dur":120074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217588906, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217588979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217588989, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217590156, "dur":221822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217811978, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217812246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217812261, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217814224, "dur":32466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217846691, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217846789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217846803, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217848041, "dur":106163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217954205, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217954323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217954337, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217955925, "dur":28203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217984129, "dur":1215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217986205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472217986219, "dur":7946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472217994221, "dur":26355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218020576, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218020676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218020690, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218022195, "dur":80014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218102210, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218102293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218102305, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218103649, "dur":182420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218286070, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218286191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218286204, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218287504, "dur":265608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218553113, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218553215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218553229, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218555486, "dur":181285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218736772, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218736871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472218736884, "dur":7255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472218744197, "dur":442807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219187005, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219187113, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219187135, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219190476, "dur":181368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219371844, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219371953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219371966, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219375092, "dur":308382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219683475, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219683583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219683596, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219686645, "dur":198302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219884947, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219885056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219885070, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219886455, "dur":56766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219943222, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219943327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687472219943340, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687472219944945, "dur":306067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217120524, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217120902, "dur":4933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217125845, "dur":54602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1687472217180448, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217180541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217181131, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1687472217182268, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687472217182412, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217182473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217182486, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687472217184705, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1687472217184848, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217184908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217184922, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1687472217187891, "dur":75926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217263818, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217263913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217264005, "dur":5988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217270049, "dur":67754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217337804, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217337906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217337920, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217339526, "dur":32550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217372077, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217372178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217372192, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217374273, "dur":283863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217658137, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217658227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217658243, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217660088, "dur":35734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217695823, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217695927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217695941, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217697566, "dur":80899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217778465, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217778571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217778585, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217780440, "dur":84777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217865217, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217865318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217865331, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217867138, "dur":59578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217926717, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217926826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217926840, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217928197, "dur":26818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217955015, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217955362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217955372, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217956819, "dur":27146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217983965, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217984043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472217984054, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472217986466, "dur":101946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218088413, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218088515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218088529, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218091124, "dur":37150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218128275, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218128350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218128363, "dur":29298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218157732, "dur":42447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218200180, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218200280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218200294, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218201692, "dur":123707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218325400, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218325508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218325521, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218327013, "dur":39938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218366951, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218367059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218367073, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218368708, "dur":31369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218400078, "dur":879, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218400976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218400992, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218402773, "dur":248735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218651508, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218651638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218651651, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218653132, "dur":143300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218796432, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218796644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218796659, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218798004, "dur":159131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218957136, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218957245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472218957258, "dur":21330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472218978642, "dur":318514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219297156, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219297263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219297277, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219299111, "dur":58280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219357392, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219357498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219357513, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219358948, "dur":332606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219691555, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219691667, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219691689, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219693493, "dur":193623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219887116, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219887206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219887220, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687472219888817, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1687472219888899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219888980, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1687472219890474, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1687472219890757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219890769, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1687472219892681, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687472219892738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219892749, "dur":14391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687472219907197, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687472219907257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219907269, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687472219909394, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1687472219909554, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219909617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219909628, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1687472219910726, "dur":1326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1687472219912052, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219912191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219912204, "dur":5899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1687472219918166, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687472219918236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219918252, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687472219920361, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687472219920424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219920434, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687472219922220, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687472219922279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219922290, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1687472219925084, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1687472219925145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219925155, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1687472219926459, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687472219926516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219926527, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687472219927900, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1687472219927961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219927971, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1687472219929133, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1687472219929285, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219929346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687472219929357, "dur":6159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1687472219935633, "dur":315387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217120504, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217120893, "dur":4973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217125866, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687472217126046, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217126124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217129235, "dur":5929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687472217135261, "dur":21015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1687472217156277, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217156405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217156419, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1687472217157829, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1687472217157992, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217158087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217158101, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1687472217159968, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687472217160116, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217160187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217160829, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1687472217162662, "dur":24578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687472217187241, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217187706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217187722, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687472217189546, "dur":166471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217356017, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217356156, "dur":70502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217426658, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217426775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217426789, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217428821, "dur":32555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217461377, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217461482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217461496, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217463002, "dur":102022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217565024, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217565157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217565170, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217566459, "dur":91713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217658173, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217658247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217658288, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217660407, "dur":55114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217715521, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217715621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217715634, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217717026, "dur":164210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217881236, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217881333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217881347, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217882801, "dur":52387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217935188, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217935292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472217935306, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472217936593, "dur":104568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218041162, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218041253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218041267, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218043046, "dur":57750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218100796, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218100897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218100909, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218102421, "dur":60212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218162634, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218162740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218162754, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218164046, "dur":60465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218224511, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218224622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218224636, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218226276, "dur":40474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218266751, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218266839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218266853, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218268260, "dur":39012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218307273, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218307387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218307401, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218309118, "dur":27892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218337016, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218337112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218337126, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218339190, "dur":75092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218414283, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218414387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218414401, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218415893, "dur":60921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218476814, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218476953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218476968, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218478532, "dur":75068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218553600, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218553671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218553682, "dur":6203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218560068, "dur":131494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218691563, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218691671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472218691685, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472218693204, "dur":434049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219127254, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219127367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219127472, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219129038, "dur":199005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219328044, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219328201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219328215, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219329846, "dur":84379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219414226, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219414326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219414340, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219415627, "dur":373232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219788859, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219788974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472219788992, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472219792310, "dur":455654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472220247965, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472220248045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687472220248054, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687472220250979, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1687472220250982, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217120600, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217120914, "dur":4953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217125867, "dur":21284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687472217147152, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217147243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217147270, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687472217148724, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687472217148868, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217148929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217149005, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687472217151089, "dur":17597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687472217168687, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217168782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217168796, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687472217170795, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687472217170961, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217171021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217171158, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687472217173742, "dur":17511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687472217191253, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217191326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217191336, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1687472217194168, "dur":12519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1687472217206688, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217206794, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687472217206931, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217207006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217207384, "dur":14854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1687472217222291, "dur":103285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217325577, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217325701, "dur":81, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217325795, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217328081, "dur":70838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217398919, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217398994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217399010, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217400426, "dur":37979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217438405, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217438485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217438498, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217439924, "dur":25820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217465744, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217465836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217465849, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217467626, "dur":36885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217504511, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217504622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217504636, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217506042, "dur":31064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217537107, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217537215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217537228, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217538830, "dur":49414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217588245, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217588340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217588354, "dur":2904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217591374, "dur":290291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217881665, "dur":9083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217890801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217890816, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217892848, "dur":29762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217922610, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217922712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217922725, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217924152, "dur":30794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217954947, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217955276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217955290, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217956822, "dur":26679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217983502, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217983608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472217983621, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472217985188, "dur":68622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218053810, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218053959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218053974, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218055767, "dur":37580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218093347, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218093448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218093462, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218094754, "dur":31658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218126413, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218126516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218126530, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218127947, "dur":49832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218177780, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218177895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218177942, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218179614, "dur":27184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218206799, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218206894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218206907, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218208342, "dur":54052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218262395, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218262503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218262518, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218264060, "dur":43965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218308025, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218308124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218308152, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218309756, "dur":27254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218337010, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218337112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218337126, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218339531, "dur":59760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218399292, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218399391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218399404, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218401061, "dur":65951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218467013, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218467127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218467141, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218468625, "dur":36670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218505296, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218505394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218505408, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218507057, "dur":206074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218713132, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218713240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218713253, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218715747, "dur":165360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218881108, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218881204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472218881218, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472218882737, "dur":182249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219064987, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219065083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219065097, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219067159, "dur":259726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219326886, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219327028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219327043, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219329016, "dur":179619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219508636, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219508750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219508763, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219510082, "dur":66496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219576579, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219576792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219576806, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219578093, "dur":211613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219789706, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219789790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219789806, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219791751, "dur":63765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219855517, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219855624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472219855637, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472219857281, "dur":336061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472220193342, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472220193432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687472220193463, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/makh0u/Documents/GitHub/Projet-de-Memoire-Licence-en-Jeux-Video/Nature's Survival_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687472220194975, "dur":56019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687472220255665, "dur":4022, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1687472220298137, "dur": 804, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687472220297961, "dur": 1001, "ph": "X", "name": "Write chrome-trace events", "args": {} },
